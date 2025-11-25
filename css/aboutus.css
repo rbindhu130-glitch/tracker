@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.55;
+  font-size: 20px;
+}
+
+header {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  text-align: center;
+  padding: 18px 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+header h1 {
+  font-size: 22px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+header p {
+  font-size: 13px;
+  margin: 0;
+}
+
+section {
+  margin: 28px auto;
+  padding: 18px;
+}
+
+h2 {
+  color: #1d4ed8;
+  margin-bottom: 12px;
+  border-left: 4px solid #ff4c4c;
+  padding-left: 10px;
+  font-size: 15px;
+  line-height: 1.25;
+}
+
+p {
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 14px;
+  padding-left: 8px;
+}
+
+li {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.highlight {
+  color: #e63946;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #0a0c0f;
+  color: #e2e8f0;
+  margin-top: 48px;
+  padding: 50px 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 40px;
+}
+
+footer .column {
+  flex: 1;
+  min-width: 220px;
+  margin-bottom: 20px;
+}
+
+footer .column h3 {
+  color: #38bdf8;
+  margin-bottom: 18px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer .column p {
+  margin-bottom: 12px;
+  line-height: 1.6;
+  color: #cbd5e1;
+  font-size: 16px;
+}
+
+footer .column a {
+  color: #38bdf8;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+footer .column a:hover {
+  color: #60a5fa;
+}
+
+
+footer .column a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: color 0.3s;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+footer .column a:hover {
+  color: #e63946;
+}
+
